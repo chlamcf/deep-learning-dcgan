@@ -1,0 +1,59 @@
+{
+  "mode": "augmented",
+  "synthetic_count": 10000,
+  "confidence": 0.95,
+  "model_checkpoint": "outputs/cnn_augmented\\augmented_cnn.pth",
+  "final_test_accuracy": 99.33,
+  "history": [
+    {
+      "epoch": 1,
+      "test_loss": 0.04069607262592763,
+      "test_accuracy": 98.6
+    },
+    {
+      "epoch": 2,
+      "test_loss": 0.028215491304988974,
+      "test_accuracy": 99.17
+    },
+    {
+      "epoch": 3,
+      "test_loss": 0.027101379451155663,
+      "test_accuracy": 99.15
+    },
+    {
+      "epoch": 4,
+      "test_loss": 0.026057331377346418,
+      "test_accuracy": 99.21
+    },
+    {
+      "epoch": 5,
+      "test_loss": 0.02930297718400743,
+      "test_accuracy": 99.09
+    },
+    {
+      "epoch": 6,
+      "test_loss": 0.0208208296900797,
+      "test_accuracy": 99.34
+    },
+    {
+      "epoch": 7,
+      "test_loss": 0.030578575537461256,
+      "test_accuracy": 99.31
+    },
+    {
+      "epoch": 8,
+      "test_loss": 0.023736600489994816,
+      "test_accuracy": 99.34
+    },
+    {
+      "epoch": 9,
+      "test_loss": 0.028793446662444006,
+      "test_accuracy": 99.22
+    },
+    {
+      "epoch": 10,
+      "test_loss": 0.03144724814335742,
+      "test_accuracy": 99.33
+    }
+  ]
+}

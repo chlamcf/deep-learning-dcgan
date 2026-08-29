@@ -1,0 +1,33 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Downloaded MNIST dataset
+data/
+
+# Large model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Keep selected experiment artifacts in the repository.
+# Other generated files can remain untracked.
+outputs/**/__pycache__/
